@@ -1,4 +1,4 @@
-# NEAR Lucky Quote - NEAR Blockchain example app for [NEAR Certificated Developer I](https://hackmd.io/@nearly-learning/ncd-1-1d) certificate
+# Near shipment
 
 1. Clone repo with `git clone`
 2. Install dependencies `yarn`
@@ -10,4 +10,3 @@
 5. Set CONTRACT env variable with that account id `export CONTRACT=<dev-123-456>`
 6. Call method from deployed smart contract `near call $CONTRACT generateLuckyQuote --accountId $CONTRACT`
 
-Check out [front end code](https://github.com/Seva98/near-lucky-quote-frontend) from [NEAR Certificated Developer II](https://hackmd.io/@nearly-learning/ncd-2-1d) that this application is using
