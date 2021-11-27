@@ -1,0 +1,24 @@
+{
+  "name": "starter--near-sdk-as",
+  "version": "0.0.1",
+  "description": "Start with a basic project",
+  "scripts": {
+    "dev": "watch -d -n 1 'clear && yarn test'",
+    "test": "yarn asp -f unit.spec",
+    "clean": "rm -rf ./build && rm -rf ./neardev",
+    "build": "asb --target debug",
+    "build:release": "asb",
+    "asp": "asp --verbose --nologo"
+  },
+  "keywords": [],
+  "author": "hello@near.org",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^27.0.3",
+    "near-sdk-as": "^3.1.0"
+  },
+  "dependencies": {
+    "jest": "^27.3.1",
+    "near-cli": "^2.2.0"
+  }
+}
