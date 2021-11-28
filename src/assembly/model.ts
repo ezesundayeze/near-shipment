@@ -16,7 +16,7 @@ export class Shipment {
     this.status = status;
   }
 
-  static insert(shipment: string, currentLocation: string, status: string): Shipment {
+  static create(shipment: string, currentLocation: string, status: string): Shipment {
     const cargo = new Shipment(shipment, currentLocation, status);
     shipments.set(cargo.id, cargo);
     return cargo;
@@ -27,7 +27,7 @@ export class Shipment {
     return cargo;
   }
 
-  static entry(): MapEntry<u32, Shipment>[] {
+  static entries(): MapEntry<u32, Shipment>[] {
     const cargos = shipments.entries()!;
     return cargos;
   }

@@ -32,7 +32,7 @@ echo ---------------------------------------------------------
 echo
 echo
 
-near view $CONTRACT entry
+near view $CONTRACT entries
 
 echo
 echo
